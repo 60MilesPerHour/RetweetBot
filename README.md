@@ -1,5 +1,5 @@
 <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/work/tw3Gz3jjK5iYWsDj"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/01_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/01_1.png" />
-# TwitterBotTemplate
+# Retweet Bot
 Retweet Bot
 
 Momentary Bot is copyrighted by the twitter user @60MilesPerHour, Momentary Bot is copyrighted (c) under copyrighted.com
