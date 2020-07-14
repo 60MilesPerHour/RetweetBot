@@ -1,32 +1,48 @@
-#!/usr/bin/env python3
-import tweepy
+#this bot now also falls under Momentary Bot's copyright as they are based upon each others code
 
-import time
-import os
+import tweepy #required
+import time #required
+import os #required
+import sys #required
 
-consumer_key = ''
-consumer_secret = ''
-access_token = ''
-access_token_secret = ''
+import logging #required for logging functions
+import datetime #required for logging functions
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
-api = tweepy.API(auth)
+x = datetime.datetime.now() #required for logging functions
 
-user = api.me()
-print(user.name)
+LOG_FILENAME = 'TwitterBotLogging.log' #required for logging functions
+logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG) #required for logging functions
+
+consumer_key = '' #required
+consumer_secret = '' #required
+access_token = '' #required
+access_token_secret = '' #required
+
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret) #required
+auth.set_access_token(access_token, access_token_secret) #required
+api = tweepy.API(auth) #required
+
+user = api.me() #required
+print(user.name) #required
 
 def main():
-    search = ("") #use a tag or an @ mention for what your bot is going to retweet
+    search = ("") #put in a @ symbol followed by the user example = @60MilesPerHour
 
-    numberofTweets = 50 #enter the number of retweets your bot will preform (100 is pushing the boundaries of twitter)
-    for tweet in tweepy.Cursor(api.search, search).items(numberofTweets):
-        try:
-            tweet.retweet()
-            print("") #enter some message here for you so you know your bot is running
-        except tweepy.TweepError as e:
-            print(e.reason)
-        except StopIteration:
-            break
-            time.sleep(1800) #amount of time before the next retweet
+    numberofTweets = 25 #Must not exceed 25 but can be lower than 25
+    
+    if numberofTweets <= 25:
+
+        logging.debug('User Entered a # of: ' + numberofTweets + str(datetime.datetime.now()))
+
+        for tweet in tweepy.Cursor(api.search, search).items(numberofTweets):
+            try:
+                tweet.retweet()
+                print("") #enter some message here for you so you know your bot is running
+            except tweepy.TweepError as e:
+                print(e.reason)
+            except StopIteration:
+                break
+    else:
+        logging.debug('User Entered a value above 25' + str(datetime.datetime.now()))
+        sys.exit  #program will exit if numberofTweets = more than 25
 main()
