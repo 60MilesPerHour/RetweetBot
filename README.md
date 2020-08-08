@@ -2,8 +2,10 @@
 # Retweet Bot
 Retweet Bot
 
-Momentary Bot is copyrighted by the twitter user @60MilesPerHour, Momentary Bot is copyrighted (c) under copyrighted.com
 Retweet bot has been filed alongside Momentary Bot under the same copyright as they have the same codebase
+
+Momentary Bot is copyrighted by the twitter user @60MilesPerHour, Momentary Bot is copyrighted (c) under copyrighted.com
+
 
 I hereby grant you the downloader of my program to use this software free of
 charge. I the creator of this software grant you permission to use the mentioned
