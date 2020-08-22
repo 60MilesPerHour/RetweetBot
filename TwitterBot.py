@@ -8,10 +8,10 @@ import sys
 import logging #required for logging functions (remove lines 8,9,11,13,14 and take out " + str(datetime.datetime.now()) from the lines below if not wanted")
 import datetime 
 
-x = datetime.datetime.now() #required for logging functions
+x = datetime.datetime.now()
 
-LOG_FILENAME = 'TwitterBotLogging.log' #required for logging functions
-logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG) #required for logging functions
+LOG_FILENAME = 'TwitterBotLogging.log' # will create this file if it doesn't already exist
+logging.basicConfig(filename=LOG_FILENAME,level=logging.DEBUG)
 
 consumer_key = '' #Lines 16 - 26 are required (you can take out the line that identify's your account if you want but i find it to be nice :)
 consumer_secret = ''
