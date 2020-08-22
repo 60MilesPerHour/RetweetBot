@@ -1,5 +1,5 @@
 #This bot now also falls under Momentary Bot's copyright as they are based upon each others code
-
+#!/usr/bin/env python3
 import tweepy # imports below are required (tweepy -> pip3 install tweepy)
 import time
 import os
