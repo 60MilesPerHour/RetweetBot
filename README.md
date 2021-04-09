@@ -42,8 +42,10 @@ Momentary Bot is copyrighted by the Twitter user @60MilesPerHour, Momentary Bot 
 
 I hereby grant you the downloader of my program to use this software free of charge. I the creator of this software grant you permission to use the mentioned software without restriction, however, you are hereby subject to the following conditions
 
--the software you download is provided as is without any such warranty of any kind. -you are forbidden to merchandise off of this software unless otherwise granted by me, the author of this software.
+- The software you download is provided as is without any such warranty of any kind. 
 
-by downloading this software, you agree that i the issuer am not liable for any infringement, claims, damages, or any other liabilities, whether contracted or otherwise.
+- You are forbidden to merchandise off of this software unless otherwise granted by me, the author of this software.
+
+By downloading this software, you agree that i the issuer am not liable for any infringement, claims, damages, or any other liabilities, whether contracted or otherwise.
 
 Contact @60MilesPerHour if you have any questions and i will try to answer them to the best of my ability.
