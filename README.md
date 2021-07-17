@@ -3,7 +3,7 @@
 
 Retweet Bots are scripts that search Twitter for tweets that mention a certain word or phrase, in my case a hashtag or a @mention of a user, and then can automatically retweet them.
 
-## Python Library
+## Tweepy Installation
 
 Use the package manager [pip3](https://pypi.org/project/tweepy/) to install Tweepy.
 
@@ -37,7 +37,7 @@ access_token_secret = ''
 
 Retweet bot has been filed alongside Momentary Bot under the same copyright as they have the same codebase
 
-Momentary Bot is copyrighted by the Twitter user @60MilesPerHour, Momentary Bot is copyrighted (c) under copyrighted.com
+Retweet Bot is copyrighted by the Twitter user @60MilesPerHour, Retweet Bot is copyrighted (c) under copyrighted.com
 
 I hereby grant you the downloader of my program to use this software free of charge. I the creator of this software grant you permission to use the mentioned software without restriction, however, you are hereby subject to the following conditions
 
@@ -45,6 +45,6 @@ I hereby grant you the downloader of my program to use this software free of cha
 
 - You are forbidden to merchandise off of this software unless otherwise granted by me, the author of this software.
 
-By downloading this software, you agree that i the issuer am not liable for any infringement, claims, damages, or any other liabilities, whether contracted or otherwise.
+By downloading this software, you agree that i the issuer am not liable for any infringement, claims, damages, or any other liabilities brought against you.
 
 Contact @60MilesPerHour if you have any questions and i will try to answer them to the best of my ability.
