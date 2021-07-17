@@ -35,7 +35,7 @@ access_token_secret = ''
 
 ## Copyright
 
-Retweet bot has been filed alongside Momentary Bot under the same copyright as they have the same codebase
+Retweet Bot has been filed alongside Momentary Bot under the same copyright as they have the same codebase
 
 Retweet Bot is copyrighted by the Twitter user @60MilesPerHour, Retweet Bot is copyrighted (c) under copyrighted.com
 
