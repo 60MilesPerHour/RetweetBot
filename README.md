@@ -1,9 +1,12 @@
+# Deprecated
+
+## Retweet Bot
+
 <a class="copyrighted-badge" title="Copyrighted.com Registered &amp; Protected" target="_blank" href="https://www.copyrighted.com/work/SDN9EdkW1uqttNJe"><img alt="Copyrighted.com Registered &amp; Protected" border="0" width="125" height="25" srcset="https://static.copyrighted.com/badges/125x25/03_1_2x.png 2x" src="https://static.copyrighted.com/badges/125x25/03_1.png" />
-# Retweet Bot
 
 Retweet Bots are scripts that search Twitter for tweets that mention a certain word or phrase, in my case a hashtag or a @mention of a user, and then can automatically retweet them.
 
-## Tweepy Installation
+### Tweepy Installation
 
 Use the package manager [pip3](https://pypi.org/project/tweepy/) to install Tweepy.
 
@@ -11,7 +14,7 @@ Use the package manager [pip3](https://pypi.org/project/tweepy/) to install Twee
 pip3 install tweepy
 ```
 
-## Code Snippet
+### Code Snippet
 
 ```
 import tweepy # Logging can be disabled and the 25 retweet limit as well
@@ -33,7 +36,7 @@ access_token = ''
 access_token_secret = ''
 ```
 
-## Copyright
+### Copyright
 
 Retweet Bot has been filed alongside Momentary Bot under the same copyright as they have the same codebase
 
